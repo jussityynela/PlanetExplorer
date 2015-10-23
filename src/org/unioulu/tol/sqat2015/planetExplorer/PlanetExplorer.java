@@ -28,7 +28,7 @@ public class PlanetExplorer {
 		position_Y = 0;
 		orientation = landing_orientation;
 		
-		obstacles.split(")");
+		String[] string_array = obstacles.split(")");
 	}
 	
 	public String executeCommand(String command){
