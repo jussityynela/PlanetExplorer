@@ -248,3 +248,35 @@ CompilationAction 1445596966846 TestPlanetExplorer.java
 CompilationAction 1445596967005 TestPlanetExplorer.java
 RefactoringAction 1445596973047 PlanetExplorer.java ADD Object getGrids() METHOD
 EditAction 1445596977968 PlanetExplorer.java 4898 7 22 0
+CompilationAction 1445596996045 PlanetExplorer.java
+CompilationAction 1445596999938 PlanetExplorer.java
+UnitTestCaseAction 1445597001675 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597001676 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+CompilationAction 1445597088550 PlanetExplorer.java
+CompilationAction 1445597088550 PlanetExplorer.java
+CompilationAction 1445597088551 PlanetExplorer.java
+CompilationAction 1445597088551 PlanetExplorer.java
+CompilationAction 1445597088551 PlanetExplorer.java
+CompilationAction 1445597088551 PlanetExplorer.java
+CompilationAction 1445597100913 PlanetExplorer.java
+CompilationAction 1445597100913 PlanetExplorer.java
+CompilationAction 1445597100914 PlanetExplorer.java
+CompilationAction 1445597100915 PlanetExplorer.java
+CompilationAction 1445597100915 PlanetExplorer.java
+CompilationAction 1445597100916 PlanetExplorer.java
+CompilationAction 1445597101065 PlanetExplorer.java
+CompilationAction 1445597101065 PlanetExplorer.java
+CompilationAction 1445597101066 PlanetExplorer.java
+CompilationAction 1445597101066 PlanetExplorer.java
+CompilationAction 1445597101066 PlanetExplorer.java
+CompilationAction 1445597104302 PlanetExplorer.java
+CompilationAction 1445597104303 PlanetExplorer.java
+CompilationAction 1445597104304 PlanetExplorer.java
+CompilationAction 1445597104304 PlanetExplorer.java
+CompilationAction 1445597104305 PlanetExplorer.java
+CompilationAction 1445597104479 PlanetExplorer.java
+CompilationAction 1445597104479 PlanetExplorer.java
+CompilationAction 1445597104479 PlanetExplorer.java
+CompilationAction 1445597104481 PlanetExplorer.java
+CompilationAction 1445597104482 PlanetExplorer.java
+EditAction 1445597194819 TestPlanetExplorer.java 4288 14 39 13

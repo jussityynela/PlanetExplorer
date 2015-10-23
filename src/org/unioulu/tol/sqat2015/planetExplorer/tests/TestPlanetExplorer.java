@@ -155,7 +155,7 @@ public class TestPlanetExplorer {
 	{
 		int x = 100;
 		int y = 100;
-		String obstacles = "(5,5)(9,9),(4,4)";
+		String obstacles = "(5,5)(9,9)(4,4)";
 		return new PlanetExplorer(x,y,obstacles);
 	}
 }

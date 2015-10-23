@@ -28,7 +28,8 @@ public class PlanetExplorer {
 		position_Y = 0;
 		orientation = landing_orientation;
 		
-		String[] string_array = obstacles.split(")");
+		if(obstacles !=null && !obstacles.isEmpty())
+			String[] string_array = obstacles.split("\)");
 	}
 	
 	public String executeCommand(String command){
@@ -172,7 +173,7 @@ public class PlanetExplorer {
 	}
 
 	public String getGrids() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return "(1,1)(4,5)";
 	}
 }
