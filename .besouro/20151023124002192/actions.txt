@@ -109,3 +109,7 @@ RefactoringAction 1445595161085 TestPlanetExplorer.java RENAME testPlanetWithThr
 RefactoringAction 1445595163116 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingO()=>void testPlanetWithThreeObstaclesAndMovingOver() METHOD
 CompilationAction 1445595164398 TestPlanetExplorer.java
 EditAction 1445595176480 TestPlanetExplorer.java 2822 9 21 9
+RefactoringAction 1445595300583 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesSize100()=>PlanetExplorer createPlanetWithThreeObstaclesSi() METHOD
+RefactoringAction 1445595300649 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesSi()=>PlanetExplorer createPlanetWithThreeObstaclesS() METHOD
+RefactoringAction 1445595301363 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesS()=>PlanetExplorer createPlanetWithThreeObstacles() METHOD
+EditAction 1445595301687 TestPlanetExplorer.java 2815 9 21 9
