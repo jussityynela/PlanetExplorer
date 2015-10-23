@@ -55,9 +55,8 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
 		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f") );
-		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
-		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f") );		
+		assertEquals( "(0,0,N)", planetExplorer.executeCommand("b") );		
 
 	}
 	
