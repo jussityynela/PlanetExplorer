@@ -93,7 +93,7 @@ public class TestPlanetExplorer {
 		
 	}
 	
-	PlanetExplorer createPlanetWithThreeObstacles()
+	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
 		int x = 100;
 		int y = 100;
