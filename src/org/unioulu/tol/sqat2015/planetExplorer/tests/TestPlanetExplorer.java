@@ -137,7 +137,7 @@ public class TestPlanetExplorer {
 		
 		//arrange
 
-		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize6();
 		//act and assert
 		planetExplorer.executeCommand("r");
 		planetExplorer.executeCommand("b");
