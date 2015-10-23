@@ -48,7 +48,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndMoveExplorerBackWards01N() {
+	public void testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardThenBackWards00N() {
 		
 		//arrange
 
