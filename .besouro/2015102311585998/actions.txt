@@ -156,3 +156,6 @@ CompilationAction 1445593011267 PlanetExplorer.java
 UnitTestCaseAction 1445593041598 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593041599 Rerun TestPlanetExplorer (Failed Tests first) FAIL
 EditAction 1445593061795 PlanetExplorer.java 3360 4 13 0
+UnitTestCaseAction 1445593063955 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593063955 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445593077647 TestPlanetExplorer.java 1347 3 15 3

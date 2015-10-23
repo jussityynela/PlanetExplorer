@@ -32,4 +32,16 @@ public class TestPlanetExplorer {
 		//act and assert
 		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
 	}
+	
+	@Test
+	public void testPlanetWithThreeObstaclesAndTurnExplorerRight00E() {
+		
+		//arrange
+		int x = 100;
+		int y = 100;
+		String obstacles = "(5,5)(9,9),(4,4)";
+		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
+		//act and assert
+		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
+	}
 }
