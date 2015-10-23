@@ -21,6 +21,8 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		planetSize_X = x;
+		planetSize_Y = y;
 		position_X = 0;
 		position_Y = 0;
 		orientation = landing_orientation;
