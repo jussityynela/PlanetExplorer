@@ -57,7 +57,7 @@ public class PlanetExplorer {
         	case West:
         			orientation = Orientation.North;
         			break;
-		}
+			}
 		}
 		
 	}
