@@ -30,6 +30,6 @@ public class TestPlanetExplorer {
 		String obstacles = "(5,5)(9,9),(4,4)";
 		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
 		//act and assert
-		assertEquals( landing_position, planetExplorer.executeCommand(empty) );		
+		assertEquals( "(0,0,E)", planetExplorer.executeCommand(empty) );		
 	}
 }

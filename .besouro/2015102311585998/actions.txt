@@ -77,3 +77,4 @@ CompilationAction 1445591750947 TestPlanetExplorer.java
 RefactoringAction 1445591755132 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndTurnExplorerRight()=>void testPlanetWithThreeObstaclesAndTurnExplorerRight00() METHOD
 RefactoringAction 1445591760047 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndTurnExplorerRight00()=>void testPlanetWithThreeObstaclesAndTurnExplorerRight00E() METHOD
 EditAction 1445591760465 TestPlanetExplorer.java 1022 2 10 2
+EditAction 1445591789060 TestPlanetExplorer.java 1015 2 10 2
