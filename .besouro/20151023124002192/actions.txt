@@ -54,3 +54,6 @@ EditAction 1445594369717 TestPlanetExplorer.java 2254 7 17 7
 EditAction 1445594377567 TestPlanetExplorer.java 2258 7 17 7
 RefactoringAction 1445594387244 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingAndTurningSameTime()=>void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime22n() METHOD
 EditAction 1445594388434 TestPlanetExplorer.java 2261 7 17 7
+UnitTestCaseAction 1445594392666 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445594392667 Rerun org.unioulu.tol.sqat2015.planetExplorer.tests.TestPlanetExplorer FAIL
+EditAction 1445594523866 PlanetExplorer.java 4052 5 15 0
