@@ -34,6 +34,7 @@ public class PlanetExplorer {
 
 	private String getExplorerPosition() {
 		// TODO Auto-generated method stub
+		
 		return position;
 	}
 }
