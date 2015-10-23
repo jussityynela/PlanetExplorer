@@ -207,3 +207,6 @@ UnitTestSessionAction 1445596351101 Rerun TestPlanetExplorer (Failed Tests first
 FileOpenedAction 1445596462689 PlanetExplorer.java 4695 6 20 0
 FileOpenedAction 1445596464592 TestPlanetExplorer.java 3884 12 33 12
 EditAction 1445596495552 TestPlanetExplorer.java 4276 13 38 13
+CompilationAction 1445596496067 TestPlanetExplorer.java
+CompilationAction 1445596521212 TestPlanetExplorer.java
+EditAction 1445596526064 TestPlanetExplorer.java 4244 13 38 13

@@ -133,7 +133,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndMovingOverSideXForwards10E() {
+	public void testPlacingObstaclesThree() {
 		
 		//arrange
 
