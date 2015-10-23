@@ -96,7 +96,7 @@ public class PlanetExplorer {
 		}
 		else if( position_X > planetSize_X)
 		{
-			position_X = planetSize_X - position_X;
+			position_X = position_X - planetSize_X ;
 		}
 		
 		if( position_Y < 0)
@@ -105,7 +105,7 @@ public class PlanetExplorer {
 		}
 		else if( position_Y > position_Y)
 		{
-			position_Y = position_Y - position_Y;
+			position_Y =  position_Y - planetSize_Y;
 		}
 		
 	}
