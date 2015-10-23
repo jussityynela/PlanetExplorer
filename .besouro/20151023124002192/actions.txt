@@ -231,3 +231,7 @@ EditAction 1445596641147 TestPlanetExplorer.java 4414 14 42 13
 CompilationAction 1445596641408 TestPlanetExplorer.java
 CompilationAction 1445596650596 TestPlanetExplorer.java
 EditAction 1445596657149 TestPlanetExplorer.java 4295 14 39 13
+RefactoringAction 1445596696737 PlanetExplorer.java ADD List<String> ob FIELD
+RefactoringAction 1445596699482 PlanetExplorer.java RENAME ob=>List<String> obstacles_ FIELD
+RefactoringAction 1445596700706 PlanetExplorer.java RENAME obstacles_=>List<String> obstacles_list FIELD
+EditAction 1445596701292 PlanetExplorer.java 4734 6 20 0

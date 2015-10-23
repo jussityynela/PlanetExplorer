@@ -14,6 +14,7 @@ public class PlanetExplorer {
 	private Orientation orientation;
 	private int planetSize_X;
 	private int planetSize_Y;
+	private List<String> obstacles_list;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
