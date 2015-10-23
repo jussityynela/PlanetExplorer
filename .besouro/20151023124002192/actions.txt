@@ -213,3 +213,11 @@ EditAction 1445596526064 TestPlanetExplorer.java 4244 13 38 13
 EditAction 1445596573006 TestPlanetExplorer.java 4242 13 38 13
 CompilationAction 1445596573280 TestPlanetExplorer.java
 EditAction 1445596578522 TestPlanetExplorer.java 4425 14 42 13
+CompilationAction 1445596578626 TestPlanetExplorer.java
+CompilationAction 1445596578626 TestPlanetExplorer.java
+CompilationAction 1445596579269 TestPlanetExplorer.java
+CompilationAction 1445596579790 TestPlanetExplorer.java
+CompilationAction 1445596579791 TestPlanetExplorer.java
+RefactoringAction 1445596582611 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesSize100()/2=>PlanetExplorer createPlanetWithThreeObstaclesSize1() METHOD
+CompilationAction 1445596583538 TestPlanetExplorer.java
+EditAction 1445596591421 TestPlanetExplorer.java 4422 14 42 13

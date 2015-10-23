@@ -146,13 +146,14 @@ public class TestPlanetExplorer {
 		
 	}
 
-	PlanetExplorer createPlanetWithThreeObstaclesSize100()
+	PlanetExplorer createPlanetWithThreeObstaclesSize6()
 	{
-		int x = 100;
-		int y = 100;
+		int x = 6;
+		int y = 6;
 		String obstacles = "(5,5)(9,9),(4,4)";
 		return new PlanetExplorer(x,y,obstacles);
 	}
+	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
 		int x = 100;
