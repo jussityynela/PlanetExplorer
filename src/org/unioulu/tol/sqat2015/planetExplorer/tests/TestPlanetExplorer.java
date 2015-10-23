@@ -146,7 +146,7 @@ public class TestPlanetExplorer {
 		
 	}
 
-	PlanetExplorer createPlanetWithThreeObstaclesSize6()
+	PlanetExplorer createPlanetWithTwoObstaclesSize6()
 	{
 		int x = 6;
 		int y = 6;

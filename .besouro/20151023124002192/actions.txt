@@ -221,3 +221,5 @@ CompilationAction 1445596579791 TestPlanetExplorer.java
 RefactoringAction 1445596582611 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesSize100()/2=>PlanetExplorer createPlanetWithThreeObstaclesSize1() METHOD
 CompilationAction 1445596583538 TestPlanetExplorer.java
 EditAction 1445596591421 TestPlanetExplorer.java 4422 14 42 13
+RefactoringAction 1445596628098 TestPlanetExplorer.java RENAME createPlanetWithThreeObstaclesSize6()=>PlanetExplorer createPlanetWithTwoObstaclesSize6() METHOD
+EditAction 1445596628518 TestPlanetExplorer.java 4420 14 42 13
