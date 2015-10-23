@@ -45,17 +45,17 @@ public class PlanetExplorer {
 		if(command.equals("f") )
 		{
 			switch (orientation) {
-        	case North:
-					orientation = Orientation.East;
+			case North:
+					position_Y += 1;
 					break;
         	case East:
-        			orientation = Orientation.South;
+        			position_X += 1;
         			break;
         	case South:
-        			orientation = Orientation.West;
+        			position_X -= 1;
         			break;
         	case West:
-        			orientation = Orientation.North;
+        			position_Y -= 1;
         			break;
 			}
 		}
