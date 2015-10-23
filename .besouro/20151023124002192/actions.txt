@@ -1,2 +1,5 @@
 FileOpenedAction 1445593202280 TestPlanetExplorer.java 1334 4 10 3
 EditAction 1445593261096 TestPlanetExplorer.java 1334 4 10 3
+UnitTestCaseAction 1445593263145 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593263146 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445593354820 TestPlanetExplorer.java 1601 5 12 4
