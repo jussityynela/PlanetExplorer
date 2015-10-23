@@ -63,20 +63,20 @@ public class PlanetExplorer {
 		if(command.equals("l"))
 			switch (orientation) {
             	case North:
-						position = "(0,0,E)";
-						orientation = Orientation.East;
+						position = "(0,0,W)";
+						orientation = Orientation.West;
 						break;
             	case East:
-            			position = "(0,0,S)";
-            			orientation = Orientation.South;
-            			break;
-            	case South:
-            			position = "(0,0,W)";
-            			orientation = Orientation.West;
-            			break;
-            	case West:
             			position = "(0,0,N)";
             			orientation = Orientation.North;
+            			break;
+            	case South:
+            			position = "(0,0,E)";
+            			orientation = Orientation.East;
+            			break;
+            	case West:
+            			position = "(0,0,S)";
+            			orientation = Orientation.South;
             			break;
 			}
 	}
