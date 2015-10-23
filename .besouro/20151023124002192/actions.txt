@@ -58,3 +58,4 @@ UnitTestCaseAction 1445594392666 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594392667 Rerun org.unioulu.tol.sqat2015.planetExplorer.tests.TestPlanetExplorer FAIL
 EditAction 1445594523866 PlanetExplorer.java 4052 5 15 0
 EditAction 1445594547299 PlanetExplorer.java 4099 5 16 0
+EditAction 1445594608155 PlanetExplorer.java 4160 5 15 0
