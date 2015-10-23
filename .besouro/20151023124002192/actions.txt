@@ -10,3 +10,4 @@ RefactoringAction 1445593377681 TestPlanetExplorer.java RENAME testPlanetWithThr
 RefactoringAction 1445593378651 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMoveExplorerForward01=>void testPlanetWithThreeObstaclesAndMoveExplorerForward01N FIELD
 CompilationAction 1445593386608 TestPlanetExplorer.java
 EditAction 1445593396930 TestPlanetExplorer.java 1604 5 12 4
+EditAction 1445593400503 TestPlanetExplorer.java 1604 5 12 4
