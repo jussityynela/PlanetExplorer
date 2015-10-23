@@ -241,3 +241,10 @@ CompilationAction 1445596711998 PlanetExplorer.java
 EditAction 1445596825417 PlanetExplorer.java 4785 6 21 0
 EditAction 1445596837240 PlanetExplorer.java 4809 6 21 0
 EditAction 1445596949143 TestPlanetExplorer.java 4287 14 37 12
+CompilationAction 1445596949400 TestPlanetExplorer.java
+CompilationAction 1445596949401 TestPlanetExplorer.java
+CompilationAction 1445596966846 TestPlanetExplorer.java
+CompilationAction 1445596966846 TestPlanetExplorer.java
+CompilationAction 1445596967005 TestPlanetExplorer.java
+RefactoringAction 1445596973047 PlanetExplorer.java ADD Object getGrids() METHOD
+EditAction 1445596977968 PlanetExplorer.java 4898 7 22 0

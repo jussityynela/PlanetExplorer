@@ -170,4 +170,9 @@ public class PlanetExplorer {
 		
 		return positionString.toString();
 	}
+
+	public String getGrids() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
