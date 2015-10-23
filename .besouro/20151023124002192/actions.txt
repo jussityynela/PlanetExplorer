@@ -52,3 +52,5 @@ CompilationAction 1445594346370 TestPlanetExplorer.java
 EditAction 1445594354462 TestPlanetExplorer.java 2340 7 18 8
 EditAction 1445594369717 TestPlanetExplorer.java 2254 7 17 7
 EditAction 1445594377567 TestPlanetExplorer.java 2258 7 17 7
+RefactoringAction 1445594387244 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingAndTurningSameTime()=>void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime22n() METHOD
+EditAction 1445594388434 TestPlanetExplorer.java 2261 7 17 7
