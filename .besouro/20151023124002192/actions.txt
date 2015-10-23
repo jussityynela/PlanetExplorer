@@ -31,3 +31,4 @@ RefactoringAction 1445593804732 TestPlanetExplorer.java RENAME testPlanetWithThr
 RefactoringAction 1445593810103 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMoveExplorerBackWards0N()=>void testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardBackWards0N() METHOD
 RefactoringAction 1445593811638 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardBackWards0N()=>void testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardThenBackWards0N() METHOD
 EditAction 1445593814088 TestPlanetExplorer.java 1892 6 14 5
+EditAction 1445593822365 TestPlanetExplorer.java 2056 6 16 6
