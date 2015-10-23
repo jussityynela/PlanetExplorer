@@ -181,6 +181,6 @@ public class PlanetExplorer {
 		StringBuilder sb = new StringBuilder();
 		for(String s: obstacles_list)
 		sb.append(obstacles_list + ")" );
-		return "(1,1)(4,5)";
+		return sb.toString();
 	}
 }
