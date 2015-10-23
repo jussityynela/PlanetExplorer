@@ -103,7 +103,7 @@ public class PlanetExplorer {
 		{
 			position_Y = planetSize_Y - position_Y;
 		}
-		else if( position_Y > position_Y)
+		else if( position_Y > planetSize_Y)
 		{
 			position_Y =  position_Y - planetSize_Y;
 		}
