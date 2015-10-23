@@ -9,7 +9,8 @@ public class PlanetExplorer {
 	
 	private static final String landing_position = "(0,0,N)";
 	private static final Orientation landing_orientation = Orientation.North;
-	private String position;
+	private int position_X;
+	private int position_Y;
 	private Orientation orientation;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,7 +19,8 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		position = landing_position;
+		position_X = 0;
+		position_Y = 0;
 		orientation = landing_orientation;
 	}
 	
@@ -44,46 +46,57 @@ public class PlanetExplorer {
 		if(command.equals("r"))
 			switch (orientation) {
             	case North:
-						position = "(0,0,E)";
 						orientation = Orientation.East;
 						break;
             	case East:
-            			position = "(0,0,S)";
             			orientation = Orientation.South;
             			break;
             	case South:
-            			position = "(0,0,W)";
             			orientation = Orientation.West;
             			break;
             	case West:
-            			position = "(0,0,N)";
             			orientation = Orientation.North;
             			break;
 			}
-		if(command.equals("l"))
+		else if(command.equals("l"))
 			switch (orientation) {
             	case North:
-						position = "(0,0,W)";
 						orientation = Orientation.West;
 						break;
             	case East:
-            			position = "(0,0,N)";
             			orientation = Orientation.North;
             			break;
             	case South:
-            			position = "(0,0,E)";
             			orientation = Orientation.East;
             			break;
             	case West:
-            			position = "(0,0,S)";
             			orientation = Orientation.South;
             			break;
 			}
 	}
 
 	private String getExplorerPosition() {
-		// TODO Auto-generated method stub
+		// Generates API defined string from position and orientation
+		StringBuilder positionString = new StringBuilder("(");
+		positionString.append(Integer.toString(position_X));
+		positionString.append(",");
+		positionString.append(Integer.toString(position_Y));
+		positionString.append(",");
+		switch (orientation) {
+    	case North:
+    			positionString.append("N)");
+				break;
+    	case East:
+    			positionString.append("E)");
+    			break;
+    	case South:
+    			positionString.append("S)");
+    			break;
+    	case West:
+    			positionString.append("W)");
+    			break;
+		}
 		
-		return position;
+		return positionString.toString();
 	}
 }

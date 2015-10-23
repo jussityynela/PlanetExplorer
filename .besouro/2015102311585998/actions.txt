@@ -116,3 +116,43 @@ UnitTestCaseAction 1445592326380 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445592326380 Rerun TestPlanetExplorer (Failed Tests first) OK
 EditAction 1445592439083 PlanetExplorer.java 3028 4 7 0
 EditAction 1445592478080 PlanetExplorer.java 3028 4 7 0
+UnitTestCaseAction 1445592523793 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592523794 Rerun TestPlanetExplorer (Failed Tests first) OK
+RefactoringAction 1445592581477 PlanetExplorer.java RENAME position=>int position_x FIELD
+RefactoringAction 1445592583529 PlanetExplorer.java RENAME position_x=>int position_X FIELD
+RefactoringAction 1445592587064 PlanetExplorer.java ADD int position_X/2 FIELD
+RefactoringAction 1445592588542 PlanetExplorer.java RENAME position_X/2=>int position_TY FIELD
+RefactoringAction 1445592589358 PlanetExplorer.java RENAME position_TY=>int position_ FIELD
+RefactoringAction 1445592589405 PlanetExplorer.java RENAME position_=>int position_Y FIELD
+CompilationAction 1445592590125 PlanetExplorer.java
+CompilationAction 1445592614159 PlanetExplorer.java
+CompilationAction 1445592614297 PlanetExplorer.java
+CompilationAction 1445592681591 PlanetExplorer.java
+CompilationAction 1445592681756 PlanetExplorer.java
+CompilationAction 1445592688696 PlanetExplorer.java
+CompilationAction 1445592688853 PlanetExplorer.java
+CompilationAction 1445592693166 PlanetExplorer.java
+CompilationAction 1445592693326 PlanetExplorer.java
+CompilationAction 1445592715608 PlanetExplorer.java
+CompilationAction 1445592715759 PlanetExplorer.java
+CompilationAction 1445592723462 PlanetExplorer.java
+CompilationAction 1445592723623 PlanetExplorer.java
+FileOpenedAction 1445592749785 GildedRose.java 2425 8 21 0
+FileOpenedAction 1445592763170 BowlingGame.java 1440 6 8 0
+CompilationAction 1445592796445 PlanetExplorer.java
+CompilationAction 1445592796610 PlanetExplorer.java
+CompilationAction 1445592796611 PlanetExplorer.java
+CompilationAction 1445592855037 PlanetExplorer.java
+CompilationAction 1445592855038 PlanetExplorer.java
+CompilationAction 1445592855199 PlanetExplorer.java
+CompilationAction 1445592918423 PlanetExplorer.java
+CompilationAction 1445592918585 PlanetExplorer.java
+CompilationAction 1445592928478 PlanetExplorer.java
+CompilationAction 1445592928633 PlanetExplorer.java
+CompilationAction 1445592987634 PlanetExplorer.java
+CompilationAction 1445592987820 PlanetExplorer.java
+CompilationAction 1445593011090 PlanetExplorer.java
+CompilationAction 1445593011267 PlanetExplorer.java
+UnitTestCaseAction 1445593041598 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593041599 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+EditAction 1445593061795 PlanetExplorer.java 3360 4 13 0
