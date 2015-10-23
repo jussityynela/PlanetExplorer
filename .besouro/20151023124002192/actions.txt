@@ -133,3 +133,17 @@ CompilationAction 1445595375518 TestPlanetExplorer.java
 CompilationAction 1445595379722 TestPlanetExplorer.java
 CompilationAction 1445595379884 TestPlanetExplorer.java
 EditAction 1445595391548 TestPlanetExplorer.java 2823 9 21 9
+UnitTestCaseAction 1445595393547 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595393548 TestPlanetExplorer FAIL
+RefactoringAction 1445595446251 PlanetExplorer.java ADD int planet FIELD
+RefactoringAction 1445595447077 PlanetExplorer.java RENAME planet=>int planetS FIELD
+RefactoringAction 1445595447129 PlanetExplorer.java RENAME planetS=>int planetSi FIELD
+RefactoringAction 1445595450400 PlanetExplorer.java RENAME planetSi=>int planet FIELD
+RefactoringAction 1445595453189 PlanetExplorer.java RENAME planet=>int planetSi FIELD
+RefactoringAction 1445595454283 PlanetExplorer.java RENAME planetSi=>int planetSize_ FIELD
+RefactoringAction 1445595455115 PlanetExplorer.java RENAME planetSize_=>int planetSize_X FIELD
+RefactoringAction 1445595458273 PlanetExplorer.java ADD int planetSize_X/2 FIELD
+RefactoringAction 1445595463877 PlanetExplorer.java RENAME planetSize_X/2=>int planetSize_X1 FIELD
+RefactoringAction 1445595467355 PlanetExplorer.java RENAME planetSize_X=>int planetSize_Y FIELD
+RefactoringAction 1445595475529 PlanetExplorer.java RENAME planetSize_X1=>int planetSize_X FIELD
+EditAction 1445595476518 PlanetExplorer.java 4217 5 15 0
