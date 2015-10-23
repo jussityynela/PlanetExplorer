@@ -92,7 +92,7 @@ public class PlanetExplorer {
 
 		if( position_X < 0)
 		{
-			
+			position_X = planetSize_X - position_X;
 		}
 		
 	}
