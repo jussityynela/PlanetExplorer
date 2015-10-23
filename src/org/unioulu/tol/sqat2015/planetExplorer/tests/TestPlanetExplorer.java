@@ -137,11 +137,8 @@ public class TestPlanetExplorer {
 		
 		//arrange
 
-		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize6();
+		PlanetExplorer planetExplorer = createPlanetWithTwoObstaclesSize6();
 		//act and assert
-		planetExplorer.executeCommand("r");
-		planetExplorer.executeCommand("b");
-		planetExplorer.executeCommand("f");
 		assertEquals( "(1,0,E)", planetExplorer.executeCommand("f"));
 		
 	}
