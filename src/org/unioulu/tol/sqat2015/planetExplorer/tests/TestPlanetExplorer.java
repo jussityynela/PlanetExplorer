@@ -38,13 +38,13 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndTurnExplorerLeft00W() {
+	public void testPlanetWithThreeObstaclesAndMoveExplorerForward01N() {
 		
 		//arrange
 
 		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
-		assertEquals( "(0,0,W)", planetExplorer.executeCommand("l") );		
+		assertEquals( "(0,1,N)", planetExplorer.executeCommand("l") );		
 	}
 	
 	
