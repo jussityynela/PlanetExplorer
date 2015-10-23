@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 
 		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
-		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
+		assertEquals( "(0,0,W)", planetExplorer.executeCommand("l") );		
 	}
 	
 	
