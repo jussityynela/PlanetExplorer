@@ -102,7 +102,7 @@ public class TestPlanetExplorer {
 		//act and assert
 		planetExplorer.executeCommand("b");
 		planetExplorer.executeCommand("f");
-		assertEquals( "(0,1,N)", planetExplorer.executeCommand("b"));
+		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f"));
 		
 	}
 	
