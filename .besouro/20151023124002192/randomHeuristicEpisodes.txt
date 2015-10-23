@@ -7,3 +7,4 @@
 1445595106225 test-addition 1 36 false
 1445595130548 regression 1 2 true
 1445596167821 test-first 1 1032 true
+1445596228435 test-addition 1 52 true
