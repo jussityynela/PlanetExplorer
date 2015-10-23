@@ -47,6 +47,16 @@ public class TestPlanetExplorer {
 		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f") );		
 	}
 	
+	@Test
+	public void testPlanetWithThreeObstaclesAndMoveExplorerBackWards01N() {
+		
+		//arrange
+
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
+		//act and assert
+		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f") );		
+	}
+	
 	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{

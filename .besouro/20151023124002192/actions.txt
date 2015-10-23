@@ -22,3 +22,8 @@ UnitTestSessionAction 1445593599918 Rerun TestPlanetExplorer (Failed Tests first
 EditAction 1445593631255 PlanetExplorer.java 3779 5 15 0
 EditAction 1445593635747 PlanetExplorer.java 3780 5 15 0
 EditAction 1445593715753 PlanetExplorer.java 3712 5 15 0
+UnitTestCaseAction 1445593722399 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593722399 Rerun TestPlanetExplorer (Failed Tests first) OK
+RefactoringAction 1445593734931 TestPlanetExplorer.java ADD void testPlanetWithThreeObstaclesAndMoveExplorerForward01N()/2 METHOD
+RefactoringAction 1445593739106 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMoveExplorerForward01N()/2=>void testPlanetWithThreeObstaclesAndMoveExplorerBack01N() METHOD
+EditAction 1445593740828 TestPlanetExplorer.java 1876 6 14 5
