@@ -145,7 +145,14 @@ public class TestPlanetExplorer {
 		assertEquals( "(1,0,E)", planetExplorer.executeCommand("f"));
 		
 	}
-	
+
+	PlanetExplorer createPlanetWithThreeObstaclesSize100()
+	{
+		int x = 100;
+		int y = 100;
+		String obstacles = "(5,5)(9,9),(4,4)";
+		return new PlanetExplorer(x,y,obstacles);
+	}
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
 		int x = 100;
