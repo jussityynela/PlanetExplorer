@@ -352,3 +352,25 @@ CompilationAction 1445597699447 PlanetExplorer.java
 UnitTestCaseAction 1445597703278 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445597703278 Rerun Rerun TestPlanetExplorer (Failed Tests first) FAIL
 EditAction 1445597712225 PlanetExplorer.java 5281 7 24 0
+UnitTestCaseAction 1445597714709 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597714709 Rerun Rerun TestPlanetExplorer (Failed Tests first) FAIL
+UnitTestCaseAction 1445597909999 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597910000 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445597924240 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597924240 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445597994974 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597994974 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445597996138 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597996138 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598116304 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598116305 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598119414 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598119415 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598120532 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598120533 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598121370 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598121370 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598122126 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598122127 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445598125135 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445598125136 TestPlanetExplorer FAIL
