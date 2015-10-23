@@ -44,3 +44,9 @@ EditAction 1445593876810 PlanetExplorer.java 4048 5 15 0
 UnitTestCaseAction 1445593878483 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445593878484 Rerun TestPlanetExplorer (Failed Tests first) OK
 EditAction 1445594333041 TestPlanetExplorer.java 2356 7 18 8
+CompilationAction 1445594333311 TestPlanetExplorer.java
+RefactoringAction 1445594341350 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardThenBackWards00N()/2=>void testPlanetWithThreeObstaclesAndMovingN() METHOD
+RefactoringAction 1445594344363 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingN()=>void testPlanetWithThreeObstaclesAndMovingAndTurning() METHOD
+RefactoringAction 1445594346283 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingAndTurning()=>void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime() METHOD
+CompilationAction 1445594346370 TestPlanetExplorer.java
+EditAction 1445594354462 TestPlanetExplorer.java 2340 7 18 8
