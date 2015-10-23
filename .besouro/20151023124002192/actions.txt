@@ -280,3 +280,58 @@ CompilationAction 1445597104479 PlanetExplorer.java
 CompilationAction 1445597104481 PlanetExplorer.java
 CompilationAction 1445597104482 PlanetExplorer.java
 EditAction 1445597194819 TestPlanetExplorer.java 4288 14 39 13
+CompilationAction 1445597204461 PlanetExplorer.java
+CompilationAction 1445597204461 PlanetExplorer.java
+CompilationAction 1445597204461 PlanetExplorer.java
+CompilationAction 1445597204461 PlanetExplorer.java
+CompilationAction 1445597204462 PlanetExplorer.java
+CompilationAction 1445597204497 PlanetExplorer.java
+CompilationAction 1445597204497 PlanetExplorer.java
+CompilationAction 1445597204498 PlanetExplorer.java
+CompilationAction 1445597204498 PlanetExplorer.java
+CompilationAction 1445597204498 PlanetExplorer.java
+CompilationAction 1445597204499 PlanetExplorer.java
+CompilationAction 1445597204499 PlanetExplorer.java
+CompilationAction 1445597216772 PlanetExplorer.java
+CompilationAction 1445597216773 PlanetExplorer.java
+CompilationAction 1445597216930 PlanetExplorer.java
+CompilationAction 1445597216931 PlanetExplorer.java
+CompilationAction 1445597216931 PlanetExplorer.java
+CompilationAction 1445597216932 PlanetExplorer.java
+CompilationAction 1445597216932 PlanetExplorer.java
+CompilationAction 1445597307893 PlanetExplorer.java
+CompilationAction 1445597307894 PlanetExplorer.java
+CompilationAction 1445597307894 PlanetExplorer.java
+CompilationAction 1445597307895 PlanetExplorer.java
+CompilationAction 1445597307895 PlanetExplorer.java
+CompilationAction 1445597308072 PlanetExplorer.java
+CompilationAction 1445597308073 PlanetExplorer.java
+CompilationAction 1445597308073 PlanetExplorer.java
+CompilationAction 1445597308074 PlanetExplorer.java
+CompilationAction 1445597308074 PlanetExplorer.java
+CompilationAction 1445597308074 PlanetExplorer.java
+RefactoringAction 1445597313575 PlanetExplorer.java ADD import java.util.regex.Pattern IMPORT
+CompilationAction 1445597320968 PlanetExplorer.java
+CompilationAction 1445597320968 PlanetExplorer.java
+CompilationAction 1445597320968 PlanetExplorer.java
+CompilationAction 1445597320969 PlanetExplorer.java
+CompilationAction 1445597320969 PlanetExplorer.java
+CompilationAction 1445597320970 PlanetExplorer.java
+CompilationAction 1445597321145 PlanetExplorer.java
+CompilationAction 1445597321145 PlanetExplorer.java
+CompilationAction 1445597321146 PlanetExplorer.java
+CompilationAction 1445597321146 PlanetExplorer.java
+CompilationAction 1445597321146 PlanetExplorer.java
+CompilationAction 1445597333471 PlanetExplorer.java
+CompilationAction 1445597333472 PlanetExplorer.java
+CompilationAction 1445597333473 PlanetExplorer.java
+CompilationAction 1445597333474 PlanetExplorer.java
+CompilationAction 1445597333474 PlanetExplorer.java
+CompilationAction 1445597333634 PlanetExplorer.java
+UnitTestCaseAction 1445597374704 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597374705 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+UnitTestCaseAction 1445597382026 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445597382027 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+UnitTestCaseAction 1445597455467 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445597455468 Rerun Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445597480354 PlanetExplorer.java 5050 7 23 0

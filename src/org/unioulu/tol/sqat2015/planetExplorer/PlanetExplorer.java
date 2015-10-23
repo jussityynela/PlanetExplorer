@@ -1,6 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.List;
+import java.util.regex.Pattern;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 153
@@ -21,7 +22,7 @@ public class PlanetExplorer {
 	 *  
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
-	 */
+	 */	
 		planetSize_X = x;
 		planetSize_Y = y;
 		position_X = 0;
@@ -29,7 +30,10 @@ public class PlanetExplorer {
 		orientation = landing_orientation;
 		
 		if(obstacles !=null && !obstacles.isEmpty())
-			String[] string_array = obstacles.split("\)");
+		{
+			Pattern p = Pattern.compile("\\)");
+			String[] string_array = p.split(obstacles);
+		}
 	}
 	
 	public String executeCommand(String command){
@@ -173,6 +177,8 @@ public class PlanetExplorer {
 	}
 
 	public String getGrids() {
+		
+		StringBuilder sb = new StringBuilder();
 		
 		return "(1,1)(4,5)";
 	}
