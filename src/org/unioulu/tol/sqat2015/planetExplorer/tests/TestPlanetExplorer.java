@@ -37,9 +37,7 @@ public class TestPlanetExplorer {
 	public void testPlanetWithThreeObstaclesAndTurnExplorerLeft00W() {
 		
 		//arrange
-		int x = 100;
-		int y = 100;
-		String obstacles = "(5,5)(9,9),(4,4)";
+
 		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
 		//act and assert
 		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
@@ -48,6 +46,9 @@ public class TestPlanetExplorer {
 	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
-		
+		int x = 100;
+		int y = 100;
+		String obstacles = "(5,5)(9,9),(4,4)";
+		return new PlanetExplorer(x,y,obstacles);
 	}
 }

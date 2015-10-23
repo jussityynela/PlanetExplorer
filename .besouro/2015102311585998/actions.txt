@@ -178,3 +178,10 @@ RefactoringAction 1445593131638 TestPlanetExplorer.java RENAME createPlanetWithT
 EditAction 1445593134182 TestPlanetExplorer.java 1421 4 15 3
 CompilationAction 1445593134430 TestPlanetExplorer.java
 EditAction 1445593146634 TestPlanetExplorer.java 1421 4 15 3
+CompilationAction 1445593146888 TestPlanetExplorer.java
+CompilationAction 1445593158408 TestPlanetExplorer.java
+CompilationAction 1445593158565 TestPlanetExplorer.java
+CompilationAction 1445593158565 TestPlanetExplorer.java
+CompilationAction 1445593158566 TestPlanetExplorer.java
+CompilationAction 1445593158566 TestPlanetExplorer.java
+EditAction 1445593164888 TestPlanetExplorer.java 1464 4 16 3
