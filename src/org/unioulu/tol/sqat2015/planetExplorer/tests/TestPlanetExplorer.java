@@ -150,7 +150,7 @@ public class TestPlanetExplorer {
 	{
 		int x = 6;
 		int y = 6;
-		String obstacles = "(1,1)(4,5)"
+		String obstacles = "(1,1)(4,5)";
 		return new PlanetExplorer(x,y,obstacles);
 	}
 	

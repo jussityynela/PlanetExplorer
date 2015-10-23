@@ -225,3 +225,6 @@ RefactoringAction 1445596628098 TestPlanetExplorer.java RENAME createPlanetWithT
 EditAction 1445596628518 TestPlanetExplorer.java 4420 14 42 13
 CompilationAction 1445596628781 TestPlanetExplorer.java
 EditAction 1445596639582 TestPlanetExplorer.java 4413 14 38 13
+CompilationAction 1445596639692 TestPlanetExplorer.java
+CompilationAction 1445596639692 TestPlanetExplorer.java
+EditAction 1445596641147 TestPlanetExplorer.java 4414 14 42 13
