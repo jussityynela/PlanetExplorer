@@ -84,6 +84,7 @@ public class PlanetExplorer {
         			break;
 			}
 		}
+		checkOverBoundsMovement();
 		
 	}
 
