@@ -30,3 +30,8 @@ CompilationAction 1445591293235 TestPlanetExplorer.java
 CompilationAction 1445591300734 TestPlanetExplorer.java
 CompilationAction 1445591300905 TestPlanetExplorer.java
 EditAction 1445591306248 TestPlanetExplorer.java 652 1 5 0
+CompilationAction 1445591306484 TestPlanetExplorer.java
+FileOpenedAction 1445591326572 GildedRoseTest.java 2402 4 15 2
+CompilationAction 1445591357770 TestPlanetExplorer.java
+FileOpenedAction 1445591389331 TestTennisGame.java 4003 16 65 20
+EditAction 1445591404347 TestPlanetExplorer.java 689 1 5 1

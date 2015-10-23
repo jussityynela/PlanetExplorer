@@ -12,11 +12,14 @@ public class TestPlanetExplorer {
 	@Test
 	public void testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding00N() {
 		
+		//arrange
 		int x = 100;
 		int y = 100;
 		String obstacles = "(5,5)(9,9),(4,4)";
 		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
-		AssertEquals( landing_position, planetExplorer.executeCommand(empty) );
+		//act and assert
+		assertEquals( landing_position, planetExplorer.executeCommand(empty) );
+		
 		
 		
 	}
