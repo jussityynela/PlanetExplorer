@@ -63,16 +63,16 @@ public class PlanetExplorer {
 		{
 			switch (orientation) {
 			case North:
-					position_Y += 1;
+					position_Y -= 1;
 					break;
         	case East:
-        			position_X += 1;
-        			break;
-        	case South:
         			position_X -= 1;
         			break;
+        	case South:
+        			position_X += 1;
+        			break;
         	case West:
-        			position_Y -= 1;
+        			position_Y += 1;
         			break;
 			}
 		}
