@@ -13,10 +13,7 @@ public class TestPlanetExplorer {
 	public void testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding00N() {
 		
 		//arrange
-		int x = 100;
-		int y = 100;
-		String obstacles = "(5,5)(9,9),(4,4)";
-		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
 		assertEquals( landing_position, planetExplorer.executeCommand(empty) );		
 	}
@@ -25,10 +22,7 @@ public class TestPlanetExplorer {
 	public void testPlanetWithThreeObstaclesAndTurnExplorerRight00E() {
 		
 		//arrange
-		int x = 100;
-		int y = 100;
-		String obstacles = "(5,5)(9,9),(4,4)";
-		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
 		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
 	}
@@ -38,7 +32,7 @@ public class TestPlanetExplorer {
 		
 		//arrange
 
-		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
 		//act and assert
 		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
 	}
