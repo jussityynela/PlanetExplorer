@@ -36,9 +36,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		char[] character_array = command.toCharArray();
-		for( int i = 0; i <character_array.length(); i++)
+		for( int i = 0; i < character_array.length; i++)
 		{
-			turnExplorer(command);
+			String single_command = new String(character_array[i]);
+			turnExplorer();
 			moveExplorer(command);
 		}
 		return getExplorerPosition();

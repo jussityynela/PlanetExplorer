@@ -59,3 +59,6 @@ UnitTestSessionAction 1445594392667 Rerun org.unioulu.tol.sqat2015.planetExplore
 EditAction 1445594523866 PlanetExplorer.java 4052 5 15 0
 EditAction 1445594547299 PlanetExplorer.java 4099 5 16 0
 EditAction 1445594608155 PlanetExplorer.java 4160 5 15 0
+CompilationAction 1445594608357 PlanetExplorer.java
+CompilationAction 1445594619791 PlanetExplorer.java
+EditAction 1445594689484 PlanetExplorer.java 4212 5 15 0
