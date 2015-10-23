@@ -6,3 +6,9 @@ RefactoringAction 1445590967377 TestPlanetExplorer.java RENAME testCreatePlanet(
 RefactoringAction 1445590967439 TestPlanetExplorer.java RENAME testCreatePlanetWithThree()=>void testCreatePlanetWithThreeO() METHOD
 RefactoringAction 1445590969730 TestPlanetExplorer.java RENAME testCreatePlanetWithThreeO()=>void testCreatePlanetWithThreeObstacles() METHOD
 EditAction 1445591049456 TestPlanetExplorer.java 363 1 0 0
+CompilationAction 1445591049773 TestPlanetExplorer.java
+CompilationAction 1445591049774 TestPlanetExplorer.java
+RefactoringAction 1445591058374 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+CompilationAction 1445591063491 TestPlanetExplorer.java
+CompilationAction 1445591063492 TestPlanetExplorer.java
+EditAction 1445591144393 TestPlanetExplorer.java 446 1 4 0
