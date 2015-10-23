@@ -191,3 +191,7 @@ RefactoringAction 1445596288512 TestPlanetExplorer.java ADD void testPlanetWithT
 EditAction 1445596290581 TestPlanetExplorer.java 3845 12 32 12
 EditAction 1445596311136 TestPlanetExplorer.java 3884 12 33 12
 EditAction 1445596321377 TestPlanetExplorer.java 3884 12 33 12
+RefactoringAction 1445596327302 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideXBackwards099N()=>void testPlanetWithThreeObstaclesAndMovingOverSideXBackwards() METHOD
+RefactoringAction 1445596328537 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideXBackwards()=>void testPlanetWithThreeObstaclesAndMovingOverSideXBackwards99() METHOD
+RefactoringAction 1445596328605 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideXBackwards99()=>void testPlanetWithThreeObstaclesAndMovingOverSideXBackwards990() METHOD
+EditAction 1445596329918 TestPlanetExplorer.java 3884 12 33 12
