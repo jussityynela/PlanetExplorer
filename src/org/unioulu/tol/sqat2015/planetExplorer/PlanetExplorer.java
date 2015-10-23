@@ -88,6 +88,15 @@ public class PlanetExplorer {
 		
 	}
 
+	private void checkOverBoundsMovement() {
+
+		if( position_X < 0)
+		{
+			
+		}
+		
+	}
+
 	private void turnExplorer(char command) {
 		if(command == 'r')
 			switch (orientation) {

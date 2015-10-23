@@ -149,3 +149,6 @@ RefactoringAction 1445595475529 PlanetExplorer.java RENAME planetSize_X1=>int pl
 EditAction 1445595476518 PlanetExplorer.java 4217 5 15 0
 EditAction 1445595509770 PlanetExplorer.java 4259 5 17 0
 EditAction 1445595557185 PlanetExplorer.java 4289 5 18 0
+CompilationAction 1445595557433 PlanetExplorer.java
+RefactoringAction 1445595566029 PlanetExplorer.java ADD void checkOverBoundsMovement() METHOD
+EditAction 1445595791370 PlanetExplorer.java 4382 6 19 0
