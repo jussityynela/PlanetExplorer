@@ -94,7 +94,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndMovingOverSideForwardss01N() {
+	public void testPlanetWithThreeObstaclesAndMovingOverSideForwards01N() {
 		
 		//arrange
 
@@ -107,7 +107,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndMovingOverSideForwardss01N() {
+	public void testPlanetWithThreeObstaclesAndMovingOverSideXForwards01N() {
 		
 		//arrange
 
@@ -115,7 +115,7 @@ public class TestPlanetExplorer {
 		//act and assert
 		planetExplorer.executeCommand("b");
 		planetExplorer.executeCommand("f");
-		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f"));
+		assertEquals( "(1,0,N)", planetExplorer.executeCommand("f"));
 		
 	}
 	

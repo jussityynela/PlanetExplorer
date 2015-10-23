@@ -181,3 +181,8 @@ UnitTestCaseAction 1445596228435 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445596228435 Rerun TestPlanetExplorer (Failed Tests first) OK
 RefactoringAction 1445596234648 TestPlanetExplorer.java ADD void testPlanetWithThreeObstaclesAndMovingOverSideForwardss01N()/2 METHOD
 EditAction 1445596234826 TestPlanetExplorer.java 3529 11 29 11
+CompilationAction 1445596235068 TestPlanetExplorer.java
+RefactoringAction 1445596242312 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideForwardss01N()/2=>void testPlanetWithThreeObstaclesAndMovingOverSideXForwardss01N() METHOD
+RefactoringAction 1445596245869 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideXForwardss01N()=>void testPlanetWithThreeObstaclesAndMovingOverSideXForwards01N() METHOD
+CompilationAction 1445596248700 TestPlanetExplorer.java
+EditAction 1445596267647 TestPlanetExplorer.java 3528 11 29 11
