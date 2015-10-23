@@ -103,3 +103,9 @@ UnitTestCaseAction 1445595130548 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595130548 TestPlanetExplorer OK
 EditAction 1445595135714 TestPlanetExplorer.java 2549 8 19 8
 EditAction 1445595144886 TestPlanetExplorer.java 2834 9 21 9
+CompilationAction 1445595145142 TestPlanetExplorer.java
+RefactoringAction 1445595159023 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingAndTurningSameTime52W()/2=>void testPlanetWithThreeObstaclesAndMovingOver() METHOD
+RefactoringAction 1445595161085 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOver()=>void testPlanetWithThreeObstaclesAndMovingO() METHOD
+RefactoringAction 1445595163116 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingO()=>void testPlanetWithThreeObstaclesAndMovingOver() METHOD
+CompilationAction 1445595164398 TestPlanetExplorer.java
+EditAction 1445595176480 TestPlanetExplorer.java 2822 9 21 9
