@@ -60,6 +60,19 @@ public class TestPlanetExplorer {
 
 	}
 	
+	@Test
+	public void testPlanetWithThreeObstaclesAndMoveExplorerFirstForwardThenBackWards00N() {
+		
+		//arrange
+
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
+		//act and assert
+		assertEquals( "(0,1,N)", planetExplorer.executeCommand("f") );
+		//act and assert
+		assertEquals( "(0,0,N)", planetExplorer.executeCommand("b") );		
+
+	}
+	
 	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{

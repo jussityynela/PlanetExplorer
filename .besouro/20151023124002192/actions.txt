@@ -41,3 +41,6 @@ EditAction 1445593863733 PlanetExplorer.java 4048 5 15 0
 UnitTestCaseAction 1445593866104 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445593866104 Rerun TestPlanetExplorer (Failed Tests first) FAIL
 EditAction 1445593876810 PlanetExplorer.java 4048 5 15 0
+UnitTestCaseAction 1445593878483 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593878484 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445594333041 TestPlanetExplorer.java 2356 7 18 8
