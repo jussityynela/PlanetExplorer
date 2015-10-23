@@ -38,9 +38,9 @@ public class PlanetExplorer {
 		char[] character_array = command.toCharArray();
 		for( int i = 0; i < character_array.length; i++)
 		{
-			String single_command = new String(character_array[i]);
-			turnExplorer();
-			moveExplorer(command);
+			String single_command = String.valueOf(character_array[i]);
+			turnExplorer(single_command);
+			moveExplorer(single_command);
 		}
 		return getExplorerPosition();
 	}
