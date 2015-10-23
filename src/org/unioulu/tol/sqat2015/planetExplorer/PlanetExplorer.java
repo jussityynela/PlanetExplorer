@@ -5,6 +5,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	
+	private static final String landing_position = "(0,0,N)";
 	private String position;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -13,7 +14,7 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		position = "(0,0,N)";
+		position = landing_position;
 	}
 	
 	public String executeCommand(String command){

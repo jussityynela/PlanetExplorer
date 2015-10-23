@@ -53,3 +53,8 @@ EditAction 1445591569860 PlanetExplorer.java 1483 3 2 0
 RefactoringAction 1445591599250 PlanetExplorer.java ADD String position FIELD
 EditAction 1445591629187 PlanetExplorer.java 1542 3 3 0
 EditAction 1445591631339 PlanetExplorer.java 1546 3 3 0
+RefactoringAction 1445591651243 PlanetExplorer.java ADD String landing FIELD
+RefactoringAction 1445591653413 PlanetExplorer.java RENAME landing=>String landing_position FIELD
+UnitTestCaseAction 1445591672977 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591672978 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445591713527 TestPlanetExplorer.java 1034 2 10 2
