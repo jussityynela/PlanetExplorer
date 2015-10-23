@@ -180,7 +180,7 @@ public class PlanetExplorer {
 		
 		StringBuilder sb = new StringBuilder();
 		for(String s: obstacles_list)
-		sb.append(obstacles_list + ")" );
+			sb.append(obstacles_list + ")" );
 		return sb.toString();
 	}
 }
