@@ -46,7 +46,7 @@ public class PlanetExplorer {
 	}
 
 	private void moveExplorer(char command) {
-		if(command.equals("f") )
+		if(command == 'f' )
 		{
 			switch (orientation) {
 			case North:
@@ -63,7 +63,7 @@ public class PlanetExplorer {
         			break;
 			}
 		}
-		else if(command.equals("b") )
+		else if(command == 'b' )
 		{
 			switch (orientation) {
 			case North:
@@ -83,8 +83,8 @@ public class PlanetExplorer {
 		
 	}
 
-	private void turnExplorer(String command) {
-		if(command.equals("r"))
+	private void turnExplorer(char command) {
+		if(command == 'r')
 			switch (orientation) {
             	case North:
 						orientation = Orientation.East;
@@ -99,7 +99,7 @@ public class PlanetExplorer {
             			orientation = Orientation.North;
             			break;
 			}
-		else if(command.equals("l"))
+		else if(command == 'r')
 			switch (orientation) {
             	case North:
 						orientation = Orientation.West;

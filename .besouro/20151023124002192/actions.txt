@@ -75,3 +75,9 @@ UnitTestCaseAction 1445594812757 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445594812758 TestPlanetExplorer OK
 RefactoringAction 1445594900198 PlanetExplorer.java RENAME moveExplorer(String)=>void moveExplorer(char) METHOD
 EditAction 1445594900554 PlanetExplorer.java 4235 5 15 0
+CompilationAction 1445594900674 PlanetExplorer.java
+CompilationAction 1445594900674 PlanetExplorer.java
+CompilationAction 1445594937055 PlanetExplorer.java
+CompilationAction 1445594937225 PlanetExplorer.java
+RefactoringAction 1445594944810 PlanetExplorer.java RENAME turnExplorer(String)=>void turnExplorer(char) METHOD
+EditAction 1445594966103 PlanetExplorer.java 4213 5 15 0
