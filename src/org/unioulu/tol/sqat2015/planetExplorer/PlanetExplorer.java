@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 153
-// Finish time:
+// Finish time: 
 public class PlanetExplorer {
 	
 	private static final String landing_position = "(0,0,N)";
