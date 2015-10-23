@@ -71,6 +71,17 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime22E() {
+		
+		//arrange
+
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
+		//act and assert
+		assertEquals( "(2,2,E)", planetExplorer.executeCommand("ffrff") );
+		
+	}
+	
 	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
