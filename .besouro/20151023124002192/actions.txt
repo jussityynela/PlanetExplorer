@@ -86,3 +86,6 @@ CompilationAction 1445594966406 PlanetExplorer.java
 CompilationAction 1445594991405 PlanetExplorer.java
 CompilationAction 1445594991407 PlanetExplorer.java
 EditAction 1445595003924 PlanetExplorer.java 4161 5 15 0
+UnitTestCaseAction 1445595008076 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595008077 TestPlanetExplorer FAIL
+EditAction 1445595052135 PlanetExplorer.java 4161 5 15 0

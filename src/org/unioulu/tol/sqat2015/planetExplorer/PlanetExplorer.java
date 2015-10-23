@@ -99,7 +99,7 @@ public class PlanetExplorer {
             			orientation = Orientation.North;
             			break;
 			}
-		else if(command == 'r')
+		else if(command == 'l')
 			switch (orientation) {
             	case North:
 						orientation = Orientation.West;
