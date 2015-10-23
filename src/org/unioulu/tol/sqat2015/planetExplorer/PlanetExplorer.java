@@ -36,13 +36,20 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		turnExplorer(command);
-		//moveExplorer("");
+		moveExplorer(command);
 		
 		return getExplorerPosition();
 	}
 
+	private void moveExplorer(String command) {
+		if(command.equals("f") )
+		{
+			position_Y += 1;
+		}
+		
+	}
+
 	private void turnExplorer(String command) {
-		// TODO Auto-generated method stub
 		if(command.equals("r"))
 			switch (orientation) {
             	case North:

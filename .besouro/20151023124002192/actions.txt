@@ -11,3 +11,9 @@ RefactoringAction 1445593378651 TestPlanetExplorer.java RENAME testPlanetWithThr
 CompilationAction 1445593386608 TestPlanetExplorer.java
 EditAction 1445593396930 TestPlanetExplorer.java 1604 5 12 4
 EditAction 1445593400503 TestPlanetExplorer.java 1604 5 12 4
+UnitTestCaseAction 1445593403335 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445593403336 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+CompilationAction 1445593418710 PlanetExplorer.java
+CompilationAction 1445593424803 PlanetExplorer.java
+RefactoringAction 1445593498941 PlanetExplorer.java ADD void moveExplorer(String) METHOD
+EditAction 1445593595572 PlanetExplorer.java 3440 5 15 0
