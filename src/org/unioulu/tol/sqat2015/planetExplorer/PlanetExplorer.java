@@ -45,7 +45,7 @@ public class PlanetExplorer {
 		return getExplorerPosition();
 	}
 
-	private void moveExplorer(String command) {
+	private void moveExplorer(char command) {
 		if(command.equals("f") )
 		{
 			switch (orientation) {
