@@ -1,5 +1,6 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -33,6 +34,9 @@ public class PlanetExplorer {
 		{
 			Pattern p = Pattern.compile("\\)");
 			String[] string_array = p.split(obstacles);
+			obstacles_list = new ArrayList<String>();
+			for(int i=0; i<string_array.length; i++)
+				obstacles_list.add( string_array[i] + ")" );
 		}
 	}
 	
@@ -180,7 +184,7 @@ public class PlanetExplorer {
 		
 		StringBuilder sb = new StringBuilder();
 		for(String s: obstacles_list)
-			sb.append(obstacles_list + ")" );
+			sb.append(obstacles_list);
 		return sb.toString();
 	}
 }
