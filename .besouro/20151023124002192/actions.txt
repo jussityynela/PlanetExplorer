@@ -17,3 +17,6 @@ CompilationAction 1445593418710 PlanetExplorer.java
 CompilationAction 1445593424803 PlanetExplorer.java
 RefactoringAction 1445593498941 PlanetExplorer.java ADD void moveExplorer(String) METHOD
 EditAction 1445593595572 PlanetExplorer.java 3440 5 15 0
+UnitTestCaseAction 1445593599917 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445593599918 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445593631255 PlanetExplorer.java 3779 5 15 0

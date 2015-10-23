@@ -44,7 +44,20 @@ public class PlanetExplorer {
 	private void moveExplorer(String command) {
 		if(command.equals("f") )
 		{
-			position_Y += 1;
+			switch (orientation) {
+        	case North:
+					orientation = Orientation.East;
+					break;
+        	case East:
+        			orientation = Orientation.South;
+        			break;
+        	case South:
+        			orientation = Orientation.West;
+        			break;
+        	case West:
+        			orientation = Orientation.North;
+        			break;
+		}
 		}
 		
 	}
