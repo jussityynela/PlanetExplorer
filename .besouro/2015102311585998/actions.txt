@@ -50,3 +50,5 @@ CompilationAction 1445591556260 PlanetExplorer.java
 RefactoringAction 1445591561877 PlanetExplorer.java ADD String getExplorerPosition(String) METHOD
 RefactoringAction 1445591569336 PlanetExplorer.java RENAME getExplorerPosition(String)=>String getExplorerPosition() METHOD
 EditAction 1445591569860 PlanetExplorer.java 1483 3 2 0
+RefactoringAction 1445591599250 PlanetExplorer.java ADD String position FIELD
+EditAction 1445591629187 PlanetExplorer.java 1542 3 3 0
