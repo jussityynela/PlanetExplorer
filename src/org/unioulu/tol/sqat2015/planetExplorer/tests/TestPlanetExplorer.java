@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndTurnExplorerRight00E() {
+	public void testPlanetWithThreeObstaclesAndTurnExplorerLeft00W() {
 		
 		//arrange
 		int x = 100;
@@ -43,5 +43,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer planetExplorer = new PlanetExplorer(x,y,obstacles);
 		//act and assert
 		assertEquals( "(0,0,E)", planetExplorer.executeCommand("r") );		
+	}
+	
+	
+	PlanetExplorer createPlanetWithThreeObstaclesSize100()
+	{
+		
 	}
 }
