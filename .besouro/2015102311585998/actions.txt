@@ -79,3 +79,39 @@ RefactoringAction 1445591760047 TestPlanetExplorer.java RENAME testPlanetWithThr
 EditAction 1445591760465 TestPlanetExplorer.java 1022 2 10 2
 EditAction 1445591789060 TestPlanetExplorer.java 1015 2 10 2
 EditAction 1445591794831 TestPlanetExplorer.java 1013 2 10 2
+CompilationAction 1445591817490 PlanetExplorer.java
+RefactoringAction 1445591828520 PlanetExplorer.java ADD void turnExplorer(String) METHOD
+CompilationAction 1445591864413 PlanetExplorer.java
+UnitTestCaseAction 1445591868248 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591868248 Rerun TestPlanetExplorer (Failed Tests first) FAIL
+UnitTestCaseAction 1445591910087 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591910088 Rerun TestPlanetExplorer (Failed Tests first) OK
+RefactoringAction 1445592008502 PlanetExplorer.java ADD import javafx.geometry.Orientation IMPORT
+RefactoringAction 1445592071371 PlanetExplorer.java ADD Orientation orientation FIELD
+CompilationAction 1445592073668 PlanetExplorer.java
+CompilationAction 1445592073669 PlanetExplorer.java
+RefactoringAction 1445592088424 Orientation.java ADD Orientation.java CLASS
+CompilationAction 1445592088599 PlanetExplorer.java
+RefactoringAction 1445592112412 Orientation.java ADD Orientation North FIELD
+RefactoringAction 1445592112413 Orientation.java ADD Orientation East FIELD
+RefactoringAction 1445592115609 Orientation.java ADD Orientation South FIELD
+RefactoringAction 1445592115610 Orientation.java ADD Orientation West FIELD
+CompilationAction 1445592116995 PlanetExplorer.java
+RefactoringAction 1445592138340 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+RefactoringAction 1445592141241 PlanetExplorer.java ADD String landing_position/2 FIELD
+RefactoringAction 1445592146335 PlanetExplorer.java RENAME landing_position/2=>String landing_orientation FIELD
+CompilationAction 1445592162579 PlanetExplorer.java
+CompilationAction 1445592162768 PlanetExplorer.java
+CompilationAction 1445592162768 PlanetExplorer.java
+CompilationAction 1445592162769 PlanetExplorer.java
+CompilationAction 1445592176441 PlanetExplorer.java
+CompilationAction 1445592176605 PlanetExplorer.java
+CompilationAction 1445592202766 PlanetExplorer.java
+CompilationAction 1445592202931 PlanetExplorer.java
+CompilationAction 1445592202932 PlanetExplorer.java
+CompilationAction 1445592283051 PlanetExplorer.java
+CompilationAction 1445592283054 PlanetExplorer.java
+CompilationAction 1445592283209 PlanetExplorer.java
+UnitTestCaseAction 1445592326380 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445592326380 Rerun TestPlanetExplorer (Failed Tests first) OK
+EditAction 1445592439083 PlanetExplorer.java 3028 4 7 0

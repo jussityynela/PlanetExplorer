@@ -1,12 +1,16 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
 public class PlanetExplorer {
 	
 	private static final String landing_position = "(0,0,N)";
+	private static final Orientation landing_orientation = Orientation.North;
 	private String position;
+	private Orientation orientation;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -15,6 +19,7 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		position = landing_position;
+		orientation = landing_orientation;
 	}
 	
 	public String executeCommand(String command){
@@ -28,9 +33,52 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		turnExplorer(command);
 		//moveExplorer("");
 		
 		return getExplorerPosition();
+	}
+
+	private void turnExplorer(String command) {
+		// TODO Auto-generated method stub
+		if(command.equals("r"))
+			switch (orientation) {
+            	case North:
+						position = "(0,0,E)";
+						orientation = Orientation.East;
+						break;
+            	case East:
+            			position = "(0,0,S)";
+            			orientation = Orientation.South;
+            			break;
+            	case South:
+            			position = "(0,0,W)";
+            			orientation = Orientation.West;
+            			break;
+            	case West:
+            			position = "(0,0,N)";
+            			orientation = Orientation.North;
+            			break;
+			}
+		if(command.equals("l"))
+			switch (orientation) {
+            	case North:
+						position = "(0,0,E)";
+						orientation = Orientation.East;
+						break;
+            	case East:
+            			position = "(0,0,S)";
+            			orientation = Orientation.South;
+            			break;
+            	case South:
+            			position = "(0,0,W)";
+            			orientation = Orientation.West;
+            			break;
+            	case West:
+            			position = "(0,0,N)";
+            			orientation = Orientation.North;
+            			break;
+			}
 	}
 
 	private String getExplorerPosition() {
