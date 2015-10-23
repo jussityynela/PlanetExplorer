@@ -202,3 +202,8 @@ RefactoringAction 1445596342652 TestPlanetExplorer.java RENAME testPlanetWithThr
 RefactoringAction 1445596342815 TestPlanetExplorer.java RENAME testPlanetWithThreeObstaclesAndMovingOverSideXForwards1E()=>void testPlanetWithThreeObstaclesAndMovingOverSideXForwards10E() METHOD
 EditAction 1445596343254 TestPlanetExplorer.java 3884 12 33 12
 EditAction 1445596348814 TestPlanetExplorer.java 3884 12 33 12
+UnitTestCaseAction 1445596351100 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596351101 Rerun TestPlanetExplorer (Failed Tests first) OK
+FileOpenedAction 1445596462689 PlanetExplorer.java 4695 6 20 0
+FileOpenedAction 1445596464592 TestPlanetExplorer.java 3884 12 33 12
+EditAction 1445596495552 TestPlanetExplorer.java 4276 13 38 13
