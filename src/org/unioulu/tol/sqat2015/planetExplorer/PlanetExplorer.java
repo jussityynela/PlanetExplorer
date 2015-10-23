@@ -94,6 +94,19 @@ public class PlanetExplorer {
 		{
 			position_X = planetSize_X - position_X;
 		}
+		else if( position_X > planetSize_X)
+		{
+			position_X = planetSize_X - position_X;
+		}
+		
+		if( position_Y < 0)
+		{
+			position_Y = planetSize_Y - position_Y;
+		}
+		else if( position_Y > position_Y)
+		{
+			position_Y = position_Y - position_Y;
+		}
 		
 	}
 
