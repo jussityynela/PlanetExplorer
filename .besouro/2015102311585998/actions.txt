@@ -12,3 +12,21 @@ RefactoringAction 1445591058374 TestPlanetExplorer.java ADD import org.unioulu.t
 CompilationAction 1445591063491 TestPlanetExplorer.java
 CompilationAction 1445591063492 TestPlanetExplorer.java
 EditAction 1445591144393 TestPlanetExplorer.java 446 1 4 0
+RefactoringAction 1445591158241 TestPlanetExplorer.java RENAME testCreatePlanetWithThreeObstacles()=>void testCreatePlanetWithThreeObstaclesAnd() METHOD
+RefactoringAction 1445591180165 TestPlanetExplorer.java RENAME testCreatePlanetWithThreeObstaclesAnd()=>void testCreatePlanetWithThreeObstaclesAndReturnValueAfter() METHOD
+RefactoringAction 1445591181443 TestPlanetExplorer.java RENAME testCreatePlanetWithThreeObstaclesAndReturnValueAfter()=>void testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding() METHOD
+RefactoringAction 1445591193105 TestPlanetExplorer.java RENAME testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding()=>void testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding00() METHOD
+RefactoringAction 1445591232877 TestPlanetExplorer.java ADD String empty FIELD
+CompilationAction 1445591235121 TestPlanetExplorer.java
+CompilationAction 1445591239074 TestPlanetExplorer.java
+CompilationAction 1445591239242 TestPlanetExplorer.java
+CompilationAction 1445591278249 TestPlanetExplorer.java
+CompilationAction 1445591278392 TestPlanetExplorer.java
+RefactoringAction 1445591285178 TestPlanetExplorer.java ADD String empty/2 FIELD
+RefactoringAction 1445591290539 TestPlanetExplorer.java RENAME empty/2=>String landing FIELD
+RefactoringAction 1445591292239 TestPlanetExplorer.java RENAME landing=>String landing_positioj FIELD
+CompilationAction 1445591293094 TestPlanetExplorer.java
+CompilationAction 1445591293235 TestPlanetExplorer.java
+CompilationAction 1445591300734 TestPlanetExplorer.java
+CompilationAction 1445591300905 TestPlanetExplorer.java
+EditAction 1445591306248 TestPlanetExplorer.java 652 1 5 0
