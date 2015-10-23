@@ -42,3 +42,11 @@ EditAction 1445591465293 PlanetExplorer.java 1347 2 1 0
 UnitTestCaseAction 1445591468477 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445591468477 TestPlanetExplorer (Failed Tests first) OK
 EditAction 1445591552207 PlanetExplorer.java 1382 2 2 0
+CompilationAction 1445591552441 PlanetExplorer.java
+CompilationAction 1445591552442 PlanetExplorer.java
+CompilationAction 1445591556098 PlanetExplorer.java
+CompilationAction 1445591556099 PlanetExplorer.java
+CompilationAction 1445591556260 PlanetExplorer.java
+RefactoringAction 1445591561877 PlanetExplorer.java ADD String getExplorerPosition(String) METHOD
+RefactoringAction 1445591569336 PlanetExplorer.java RENAME getExplorerPosition(String)=>String getExplorerPosition() METHOD
+EditAction 1445591569860 PlanetExplorer.java 1483 3 2 0
