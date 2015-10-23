@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testCreatePlanetWithThreeObstaclesAndReturnValueAfterLanding00N() {
+	public void testPlanetWithThreeObstaclesAndTurnExplorerRight00E() {
 		
 		//arrange
 		int x = 100;
