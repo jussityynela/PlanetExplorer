@@ -235,3 +235,7 @@ RefactoringAction 1445596696737 PlanetExplorer.java ADD List<String> ob FIELD
 RefactoringAction 1445596699482 PlanetExplorer.java RENAME ob=>List<String> obstacles_ FIELD
 RefactoringAction 1445596700706 PlanetExplorer.java RENAME obstacles_=>List<String> obstacles_list FIELD
 EditAction 1445596701292 PlanetExplorer.java 4734 6 20 0
+CompilationAction 1445596701579 PlanetExplorer.java
+RefactoringAction 1445596710649 PlanetExplorer.java ADD import java.util.List IMPORT
+CompilationAction 1445596711998 PlanetExplorer.java
+EditAction 1445596825417 PlanetExplorer.java 4785 6 21 0

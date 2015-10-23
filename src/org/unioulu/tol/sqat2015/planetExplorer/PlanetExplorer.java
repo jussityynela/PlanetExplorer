@@ -1,6 +1,6 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
-
+import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 153
@@ -27,6 +27,8 @@ public class PlanetExplorer {
 		position_X = 0;
 		position_Y = 0;
 		orientation = landing_orientation;
+		
+		obstacles.split(")");
 	}
 	
 	public String executeCommand(String command){
