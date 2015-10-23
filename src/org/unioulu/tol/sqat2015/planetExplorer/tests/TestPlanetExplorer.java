@@ -93,6 +93,17 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void testPlanetWithThreeObstaclesAndMovingOverSideBackwards099N() {
+		
+		//arrange
+
+		PlanetExplorer planetExplorer = createPlanetWithThreeObstaclesSize100();
+		//act and assert
+		assertEquals( "(0,99,N)", planetExplorer.executeCommand("b"));
+		
+	}
+	
 	PlanetExplorer createPlanetWithThreeObstaclesSize100()
 	{
 		int x = 100;
