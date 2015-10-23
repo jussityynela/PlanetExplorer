@@ -59,7 +59,7 @@ public class PlanetExplorer {
         			break;
 			}
 		}
-		else if(command.equals("f") )
+		else if(command.equals("b") )
 		{
 			switch (orientation) {
 			case North:
