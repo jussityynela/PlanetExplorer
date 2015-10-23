@@ -72,7 +72,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime22E() {
+	public void testPlanetWithThreeObstaclesAndMovingAndTurningSameTime52E() {
 		
 		//arrange
 
